@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# vim: filetype=sh:
+
+IMAGE_NAME=${IMAGE_NAME:-docker-spacy-$@}
+
+echo "Building "$IMAGE_NAME
+
+docker build -t $IMAGE_NAME -f $@/Dockerfile .

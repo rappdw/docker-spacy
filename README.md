@@ -1,2 +1,2 @@
 # docker-spacy
-Basic Docker images for Python and Anaconda
+Docker image with python, spacy library and data (en)

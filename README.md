@@ -1,2 +1,2 @@
 # docker-spacy
-Basic Docker image for Python 3.6.0 and Spacy 1.6
+Basic Docker image for Python 3.6.0 and Spacy 1.5
